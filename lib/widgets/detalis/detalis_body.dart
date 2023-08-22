@@ -63,25 +63,25 @@ class DetalisBody extends StatelessWidget {
               ),
               Text(
                 "السعر : \$${product.price}",
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w600,
                   color: kSecondaryColor,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: kDefaultPadding,
               ),
             ],
           ),
         ),
         Container(
-          margin: EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
-          padding: EdgeInsets.symmetric(
+          margin: const EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
+          padding: const EdgeInsets.symmetric(
               horizontal: kDefaultPadding * 1.5, vertical: kDefaultPadding / 2),
           child: Text(
             product.description,
-            style: TextStyle(color: Colors.white, fontSize: 18),
+            style: const TextStyle(color: Colors.white, fontSize: 18),
           ),
         )
       ],
